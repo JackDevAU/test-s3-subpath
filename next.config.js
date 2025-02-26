@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  basePath: `/${process.env.NEXT_PUBLIC_BASE_PATH}`,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH ? `/${process.env.NEXT_PUBLIC_BASE_PATH}` : undefined,
   async rewrites() {
     return [
       {
