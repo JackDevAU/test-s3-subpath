@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  basePath: `/${process.env.NEXT_PUBLIC_BASE_PATH}`,
+  basePath: "/test-s3-subpath",
   async rewrites() {
     return [
       {
