@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "test-s3-subpath",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,11 +15,11 @@
     "next-tinacms-s3": "0.0.0-858502f-20250226015538",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tinacms": "^2.6.4",
+    "tinacms": "0.0.0-858502f-20250226015538",
     "typescript": "5.5.2"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.8.4",
+    "@tinacms/cli": "0.0.0-858502f-20250226015538",
     "@types/node": "^22.13.1",
     "eslint": "^8.57.1",
     "eslint-config-next": "^14.2.24"
