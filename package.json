@@ -15,7 +15,7 @@
     "next-tinacms-s3": "0.0.0-858502f-20250226015538",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tinacms": "0.0.0-858502f-20250226015538",
+    "tinacms": "2.7.2",
     "typescript": "5.5.2"
   },
   "devDependencies": {
